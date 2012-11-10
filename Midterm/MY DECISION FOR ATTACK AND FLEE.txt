@@ -1,0 +1,8 @@
+Attack/Flee
+
+I figured if there is a badass dragon close by, the ship should run away regardless of what it is doing.
+
+So essentially while the ship is attacking, if the dragon appears, it flees, once it is safe again, the ship goes into wander.
+If the ship is seeking, if the dragon appears, it will again flee until it is safe then go into wander.
+
+Basically, all states can go into flee, but flee can only change into wander.
